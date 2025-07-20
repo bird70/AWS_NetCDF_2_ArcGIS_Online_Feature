@@ -10,7 +10,7 @@ Because appending takes a while and can run asynchronously, the Append command i
 
 Last step is to write the ID of the uploaded GPKG-file, which is quite big and could be expensive to keep in ArcGIS Online, into a CSV file on the S3 bucket, so the geopackage file item in ArcGIS Online can be identified and deleted in the next script run. (This way we only pay for hosting the item a couple of hours in ArcGIS Online).
 
-![AWS Lambda Function Diagram](.\aws_lambda_netcdf_arcgis_architecture.png)
+![AWS Lambda Function Diagram](aws_lambda_netcdf_arcgis_architecture.png)
 
 CloudFormation:
 
